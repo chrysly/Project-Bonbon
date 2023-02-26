@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f9e3bc7d1dfda4193e6e9ed9c7e389, type: 3}
+  m_Name: 2_Lemon_Projectile 1
+  m_EditorClassIdentifier: 
+  projectileName: Lemon
+  projectileId: 2
+  shell: {fileID: -6873596774436776671, guid: 22663be4370a79048b983df8748a38ae, type: 3}
+  launchForce: 40
+  ammo: 3
+  fireRate: 0.3
+  damage: 2
