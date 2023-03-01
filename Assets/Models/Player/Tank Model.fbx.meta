@@ -2,11 +2,63 @@ fileFormatVersion: 2
 guid: c1a5f956259461a4688254f0db78ac0d
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable:
+  internalIDToNameTable: []
+  externalObjects:
   - first:
-      74: 7178822757713114299
-    second: Donut Cannon|Donut CannonAction
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue Candle.001
+    second: {fileID: 2100000, guid: 9de6272a542da644d8f16ff317ac1ad9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Choco Tank
+    second: {fileID: 2100000, guid: bd805e3eb4a09694a837ddabf0234f40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark Choco.001
+    second: {fileID: 2100000, guid: c6a3645db80544c4cbe2a520a23ccf4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dough.001
+    second: {fileID: 2100000, guid: aaebf09a73fd36244b2e25a9d715ba75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frosting.001
+    second: {fileID: 2100000, guid: 03c381c83a8ef354983a5f11a3724eea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plate
+    second: {fileID: 2100000, guid: 8b4b37616a3d85948b8488347ac8f015, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red Candle.001
+    second: {fileID: 2100000, guid: ad36eb123f03abe48b87985004fe9a2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strawberry
+    second: {fileID: 2100000, guid: 76f35ee3e295bff42ae68769245b7d9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tank Track Connection
+    second: {fileID: 2100000, guid: 31e7f42f850558a46aacffe68f3e6e55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Track
+    second: {fileID: 2100000, guid: e453fa50a0ed61b47bdf52b6fb10be84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheels.001
+    second: {fileID: 2100000, guid: 070fd9c92532a65419daf7445628589a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
