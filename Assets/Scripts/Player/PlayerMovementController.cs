@@ -58,7 +58,6 @@ public class PlayerMovementController : MonoBehaviour {
 
             finalTurretDir = Vector3.Lerp(finalTurretDir, lookDirection, Time.deltaTime * turretLag);   //see Lerp() on unity docs, essentially delays rotation for smoother movement
             finalTurretDir.y = 0f;  //lock turret rotation on the y-axis (we only want to rotate it on the z-axis)
-            finalTurretDir = Quaternion.Euler(1, 90, 1) * finalTurretDir;
             turret.rotation = Quaternion.LookRotation(finalTurretDir);  //applies the rotation to the turret mesh
         }
     }
