@@ -7,17 +7,20 @@ using UnityEngine;
 
 public class PlayerMovementController : MonoBehaviour {
 
-    [Header("Header Properties")]
+    [Header("Tank Properties")]
     public float tankSpeed = 15f;
     public float rotationSpeed = 20f;
+    [SerializeField] private Transform actorToTranslate;
 
     [Header("Turret Properties")]
     public Transform turret;
     public float turretLag = 0.5f;
-
+    
     private Rigidbody rb;
     private TankInputManager input;
     private Vector3 finalTurretDir;
+
+
 
     void Start() {
         rb = GetComponent<Rigidbody>();
@@ -35,7 +38,7 @@ public class PlayerMovementController : MonoBehaviour {
     protected void SetPosition() {
         //Translation
         Vector3 forwardPosition = transform.position + (transform.forward * input.ForwardInput * tankSpeed * Time.deltaTime);
-        rb.MovePosition(forwardPosition);
+        actorToTranslate.position = forwardPosition;
     }
     protected void SetRotation() {
         //Rotation

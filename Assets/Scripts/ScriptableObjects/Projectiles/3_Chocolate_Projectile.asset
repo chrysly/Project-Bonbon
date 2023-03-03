@@ -15,7 +15,7 @@ MonoBehaviour:
   projectileName: Chocolate
   projectileId: 3
   shell: {fileID: -3220752179878485529, guid: 24ce8558f8cd34f4dbdb40a74adb07ef, type: 3}
-  launchForce: 50
+  launchForce: 15
   ammo: 3
   fireRate: 0.3
   damage: 2

@@ -15,7 +15,7 @@ MonoBehaviour:
   projectileName: Cherry
   projectileId: 1
   shell: {fileID: 8161846570686639, guid: a968d9a3dfadb9142b525f8c7760fe4b, type: 3}
-  launchForce: 20
+  launchForce: 8
   ammo: 3
   fireRate: 1
   damage: 10
